@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-Black.eot");
+    src: url("CircularStd-Black.eot?#iefix") format("embedded-opentype"), url("CircularStd-Black.woff") format("woff"), url("CircularStd-Black.ttf") format("truetype"), url("CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-BlackItalic.eot");
+    src: url("CircularStd-BlackItalic.eot?#iefix") format("embedded-opentype"), url("CircularStd-BlackItalic.woff") format("woff"), url("CircularStd-BlackItalic.ttf") format("truetype"), url("CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 800;
+    font-style: italic;
+}
+/*-----------------------------
+  CircularStd-Bold
+-----------------------------*/
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-Bold.eot");
+    src: url("CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("CircularStd-Bold.woff") format("woff"), url("CircularStd-Bold.ttf") format("truetype"), url("CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-BoldItalic.eot");
+    src: url("CircularStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("CircularStd-BoldItalic.woff") format("woff"), url("CircularStd-BoldItalic.ttf") format("truetype"), url("CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 600;
+    font-style: italic;
+}
+/*-----------------------------
+  CircularStd-Medium
+-----------------------------*/
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-Medium.eot");
+    src: url("CircularStd-Medium.eot?#iefix") format("embedded-opentype"), url("CircularStd-Medium.woff") format("woff"), url("CircularStd-Medium.ttf") format("truetype"), url("CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-MediumItalic.eot");
+    src: url("CircularStd-MediumItalic.eot?#iefix") format("embedded-opentype"), url("CircularStd-MediumItalic.woff") format("woff"), url("CircularStd-MediumItalic.ttf") format("truetype"), url("CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 500;
+    font-style: italic;
+}
+/*-----------------------------
+  CircularStd-Book
+-----------------------------*/
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-Book.eot");
+    src: url("CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("CircularStd-Book.woff") format("woff"), url("CircularStd-Book.ttf") format("truetype"), url("CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("CircularStd-BookItalic.eot");
+    src: url("CircularStd-BookItalic.eot?#iefix") format("embedded-opentype"), url("CircularStd-BookItalic.woff") format("woff"), url("CircularStd-BookItalic.ttf") format("truetype"), url("CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd") format("svg");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'The-Icon-of';
+    src:  url('../The-Icon-of.eot?w2v7hx');
+    src:  url('../The-Icon-of.eot?w2v7hx#iefix') format('embedded-opentype'),
+    url('../The-Icon-of.woff2?w2v7hx') format('woff2'),
+    url('../The-Icon-of.ttf?w2v7hx') format('truetype'),
+    url('../The-Icon-of.woff?w2v7hx') format('woff'),
+    url('../The-Icon-of.svg?w2v7hx#The-Icon-of') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

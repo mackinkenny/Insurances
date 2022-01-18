@@ -1,0 +1,472 @@
+<template>
+    <section class="container">
+        <div class="block-image">
+            <img class="bg-image" src="images/bg1.jpg" alt="">
+            <div class="logo">
+                <img src="images/logo.png">
+                <p class="logo-title">POLIZZACERTA </p>
+            </div>
+        </div>
+        <div class="block-form">
+            <div class="registration-form">
+                <p class="form-title">Verify your policy</p>
+                <p class="form-subtitle">How does it work? <span class="red">Discover PolizzaCerta</span></p>
+
+                <div class="form-div">
+                    <span class="form-label">Choose the Insurance Company</span>
+                    <!--                <input class="form-input" type="text" id="company" name="company" list="company_list"-->
+                    <!--                       placeholder="Insurance Company">-->
+                    <!--                <datalist class="datalist" id="company_list">-->
+                    <!--                    <option value="Insurance Company1">Insurance Company 1</option>-->
+                    <!--                    <option value="Insurance Company2">Insurance Company 2</option>-->
+                    <!--                    <option value="Insurance Company3">Insurance Company 3</option>-->
+                    <!--                </datalist>-->
+                    <p class="select">
+                        <select class="form-input" name="select2">
+                            <!--                    <option selected="selected">Insurance Company</option>-->
+                            <option>Insurance Company</option>
+                            <option>Insurance Company 1</option>
+                            <option>Insurance Company 2</option>
+                            <option>Insurance Company 3</option>
+                            <option>Insurance Company 4</option>
+                        </select></p>
+                    <p><span class="form-label">The policy number</span> <span class="blue">Where I can find a Policy Number?</span>
+                    </p>
+                    <input class="form-input" type="text" id="policy" placeholder="Policy number">
+                    <span class="form-label">Tax identification Number</span>
+                    <input class="form-input eye-off" type="text" id="tax" placeholder="Tax identification number">
+                    <p class="form-subtitle red right">Is my data safe?</p>
+                    <button class="form-button">Check Policy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+    export default {
+        name: "HomePage"
+    }
+</script>
+
+<style scoped>
+    *, *::after, *::before {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .container {
+        background: #fff;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .bg-image {
+        z-index: 0;
+        position: relative;
+
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo {
+        z-index: 1;
+        position: absolute;
+        left: 15.62%;
+
+        top: 8.89%;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo-title {
+        margin-left: 16px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -0.428571px;
+        color: #FFFFFF;
+    }
+
+    .registration-form {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-40%);
+        z-index: 2;
+        width: 95%;
+        max-width: 650px;
+        /* height: 100%; */
+        max-height: 99%;
+        /* margin: 10%; */
+        background: #FFFFFF;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 36px 36px;
+    }
+
+    .block-image {
+
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .block-form {
+        position: relative;
+        /*height: 100vh;*/
+        /*height: 85%;*/
+        grid-row: 1/2;
+        grid-column: 2/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-div {
+        width: 100%;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .form-title {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        letter-spacing: -0.428571px;
+        color: #152232;
+    }
+
+    .form-subtitle {
+        margin-top: 16px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.428571px;
+        color: #949CA5;
+    }
+
+    .form-label {
+        margin: 0 0 16px 0;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #152232;
+    }
+
+    ::-webkit-input-placeholder { /* Chrome */
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #D8D6DE;
+    }
+
+    :-ms-input-placeholder { /* IE 10+ */
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #D8D6DE;
+    }
+
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #D8D6DE;
+    }
+
+    :-moz-placeholder { /* Firefox 4 - 18 */
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #D8D6DE;
+    }
+
+    select.form-input {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #D8D6DE;
+    }
+
+    select option {
+        color: #6E6B7B;
+    }
+
+    .select {
+        position: relative;
+        min-width: 100%;
+
+    }
+
+    .select select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    .select:after {
+        content: "";
+        display: block;
+        border-style: solid;
+        border-width: 13px 9px 0 9px;
+        border-color: #000 transparent transparent transparent;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        z-index: 1;
+        margin-top: -16px;
+    }
+
+    .form-input {
+        margin-bottom: 24px;
+        width: 100%;
+        height: 80px;
+        outline: none;
+        padding: 28px 13px;
+        background: #FFFFFF;
+        border: 1px solid #152232;
+        border-radius: 8px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+        color: #6E6B7B;
+    }
+
+    .eye-off::after {
+        content: "555555";
+
+    }
+
+    .form-div p {
+        margin-bottom: 14px;
+    }
+
+    input[name='company'] {
+        width: 100%;
+        min-width: 400px;
+    }
+
+    .red {
+        color: rgba(229, 150, 122, 1);
+    }
+
+    .blue {
+        font-weight: normal;
+        color: rgba(72, 129, 239, 1);
+    }
+
+    .right {
+        align-self: flex-end;
+    }
+
+    .form-button {
+        cursor: pointer;
+        border: 1px solid #91D690;
+        margin-top: 38px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /*padding: 35px 180px;*/
+        width: 100%;
+        height: 85px;
+        max-height: 100%;
+        background: #91D690;
+        border-radius: 10px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.428571px;
+        color: #FFFFFF;
+        transition: background .3s linear;
+    }
+
+    .form-button:hover {
+        background: #fff;
+        color: #91D690;
+    }
+
+    span {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.428571px;
+
+        color: #152232;
+    }
+
+    p.form-subtitle.red.right {
+        margin-top: -18px;
+    }
+
+    @media screen and (min-width: 1922px) {
+        .registration-form {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    @media screen and (min-width: 1800px) {
+        .bg-image {
+            margin-top: -70px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .registration-form {
+            padding: 26px;
+            width: 120%;
+            margin-left: -21%;
+        }
+
+        .form-button {
+            margin-top: 0;
+        }
+
+        .logo {
+            left: 5%;
+        }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+        .registration-form {
+            width: 120%;
+            margin-left: -28%;
+        }
+
+        .logo {
+            left: 1.6%;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .logo img {
+            width: 25px;
+        }
+
+        .registration-form {
+            position: relative;
+            width: 100%;
+            padding: 15px;
+            margin-left: 0;
+        }
+
+        .container {
+            grid-template-columns: 1fr;
+            width: 100%;
+            height: 100%;
+        }
+
+        .bg-image {
+            grid-row: 1/2;
+            grid-column: 1/3;
+        }
+
+        .block-form {
+            height: 100%;
+            grid-row: 2/3;
+            grid-column: 1/3;
+        }
+
+        .logo {
+            left: 50%;
+        }
+
+        .logo-title {
+            font-size: 20px;
+        }
+
+        .form-title {
+            font-size: 24px;
+        }
+
+        .form-label {
+            display: none;
+        }
+
+        .form-subtitle, .form-label span {
+            font-size: 16px;
+            display: block;
+        }
+
+        .form-input {
+            margin-bottom: 24px;
+
+        }
+
+        .right {
+            align-self: flex-start;
+            font-size: 16px;
+        }
+
+        p.form-subtitle.red.right {
+            margin-top: -15px;
+        }
+
+        .form-button {
+            margin-top: 30px;
+        }
+    }
+
+    @media (max-width: 388px) {
+        .logo {
+            top: 3%;
+        }
+
+        .logo-title {
+            font-size: 14px;
+        }
+    }
+</style>

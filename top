@@ -1,0 +1,480 @@
+[33mcommit 145c4387deb1ae94313aea9203811e708e925f05[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: MuninHugin <workbox33@yandex.ru>
+Date:   Thu Nov 25 15:55:42 2021 +0300
+
+    final fixes by 25.11.2021
+
+[33mcommit 7564197f80c040222dc2e3e6fcdf90f3030fa42a[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 25 01:39:59 2021 +0600
+
+    Update TranslationSeeder.php
+
+[33mcommit 0d779c7664a30496917a317a1b11515c040c4b93[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 25 01:39:52 2021 +0600
+
+    fix link
+
+[33mcommit 7fd2db74275e4f00b08dcca8c8e35e50968bb340[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 25 01:05:45 2021 +0600
+
+    polizzacerta minor fixes, fix data safe modal text
+
+[33mcommit 661c4c48fe7b99802bee150272f6e1330b765f3f[m
+Author: arun <chandelarun1707@gmail.com>
+Date:   Tue Nov 23 01:47:42 2021 +0000
+
+    Trustproxies updated for HTTPS
+
+[33mcommit d37f6bb8514e81b5038fd5e43e05d2cb42fea80e[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 22:55:08 2021 +0600
+
+    rollback htaccess
+
+[33mcommit 61f2560ae1cf52ce5adf3810e8fb315ae0e0231d[m
+Merge: ccc2a1c 154961f
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 22:12:59 2021 +0600
+
+    Merge branch 'dev' of https://git-codecommit.eu-south-1.amazonaws.com/v1/repos/polizzacerta into dev
+
+[33mcommit ccc2a1c52cb9119f2e2589aceba178a4df6579e2[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 22:12:41 2021 +0600
+
+    Update .htaccess
+
+[33mcommit 154961fa18e02e17cef27cec0203ac68e9ae4223[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 22 16:03:10 2021 +0000
+
+    scripts updated
+
+[33mcommit 6e423e4da2a21660149028b5f4d329a0e9e9f21f[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 21:39:05 2021 +0600
+
+    Update landing.blade.php
+
+[33mcommit f4462ad04b52ab73e317921b920fc56c074ac996[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 21:37:53 2021 +0600
+
+    Add livechat to clients page
+
+[33mcommit 40d985fb9d64dff6b7b64b9ea6da7a3329a3bfa8[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 22 15:13:05 2021 +0000
+
+    scripts permissions updated
+
+[33mcommit d59fc9dbdabc52f3c8e3c92265986a196545757d[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 19:01:21 2021 +0600
+
+    masks fix
+
+[33mcommit 39fe6afd6bbf9176feba4cce023be64407c5c09e[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 22 14:31:57 2021 +0600
+
+    Enable phone sms check
+
+[33mcommit 62038728b4602c3fab30a076d1343490e9890f98[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Fri Nov 19 13:43:29 2021 +0600
+
+    api agency fix, remove tax id in upload by field
+
+[33mcommit b51fad981ee9012f30871d733ae45fad1c31b443[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 18 17:52:33 2021 +0600
+
+    fix api
+
+[33mcommit 5d83e21bcdaffbe524a9e01db71d3a13b1faf392[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 18 01:06:24 2021 +0600
+
+    return disable
+
+[33mcommit 7ef05feada4dab17c5dfc2714970e338795e06dc[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Thu Nov 18 01:00:11 2021 +0600
+
+    add new option to phone number input, fix contracts api
+
+[33mcommit 51e124701847659330bd5124e67ab0fd3dcc9d87[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Wed Nov 17 23:40:51 2021 +0600
+
+    rebild
+
+[33mcommit b740dd62e2d58b124a14f2c20dbeab8cc798225c[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Wed Nov 17 23:01:31 2021 +0600
+
+    disable phone sms check
+
+[33mcommit 6b27d285a0f3d2818aaa7e6e9190245d26dc635f[m
+Author: Riccardo Tortora <riccardo.tortora@polizzacerta.it>
+Date:   Tue Nov 16 10:48:19 2021 +0000
+
+    Open seeders
+
+[33mcommit 0aa1aa8bef78261087310967452f4386551755ec[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Mon Nov 15 18:59:19 2021 +0600
+
+    Update CompanyController.php
+
+[33mcommit 72c627ac360c4b8a87930ffcb28ef941199afe20[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Nov 13 02:39:36 2021 +0000
+
+    Edited set_permissions.sh
+
+[33mcommit c5aea76c1711cacfd2f29adffa94a2d42c2e67c4[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Nov 13 02:27:54 2021 +0000
+
+    Edited set_permissions.sh
+
+[33mcommit a7aa6711bf715a470d15be52faa897cd79e47f4f[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Nov 13 02:14:47 2021 +0000
+
+    permissions updated
+
+[33mcommit 1c7972ba78f378fa8650abb231b72d94f95e18e1[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Nov 13 02:00:47 2021 +0000
+
+    install.sh updated
+
+[33mcommit 10fd9f3bfc3297a16f5430b8a817209a8ec3b6c2[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Nov 13 01:18:14 2021 +0000
+
+    script modified
+
+[33mcommit d8352995e4a03a9909e5ea18bb2730c3a8c0320d[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Thu Nov 11 16:43:28 2021 +0000
+
+    script modify for Dev environment
+
+[33mcommit c70a98c3e9395d94a4928d240e26cdb976a8eadc[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Wed Nov 10 18:40:34 2021 +0600
+
+    Recommit changes
+
+[33mcommit 36aac44b9f0b03a910ee730787e6911b23ffadee[m
+Author: codecommituser-at-438310128462 <codecommituser-at-438310128462>
+Date:   Tue Nov 9 21:59:56 2021 +0530
+
+    first code
+
+[33mcommit 7b7601ab675b9e66c9b857ade577143cee5d89a1[m
+Author: codecommituser-at-438310128462 <codecommituser-at-438310128462>
+Date:   Tue Nov 9 21:58:13 2021 +0530
+
+    first
+
+[33mcommit 4fa2c7f375889b06cfc75022544678debc763fc2[m
+Author: Erkin <Mackinkenny@gmail.com>
+Date:   Tue Nov 9 17:29:47 2021 +0600
+
+    commit last changes
+
+[33mcommit 07d4e60d7a182a5f20cd746a4837067fd678b660[m
+Author: codecommituser-at-438310128462 <arun@DESKTOP-AFT95KT.localdomain>
+Date:   Mon Nov 8 19:49:18 2021 +0530
+
+    scripts command edit
+
+[33mcommit f0aeb51c75e401906ab01c14a14b01bc91ad37a7[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Wed Nov 3 17:47:00 2021 +0000
+
+    script edit
+
+[33mcommit 819b2e24f036408cab21cfda5c9dcdbbacbcab83[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Wed Nov 3 17:29:24 2021 +0000
+
+    added few commands in scripts
+
+[33mcommit c1198c59b32b750c0617c4bb48dca46aa444001e[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Tue Nov 2 07:29:38 2021 +0000
+
+    appspec file edit
+
+[33mcommit bdedde2ce67043343a9982886cc10156a484d45e[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Tue Nov 2 07:14:55 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit f6f91014b9aa5a782e60f526ffe26b7cc577420a[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Tue Nov 2 06:58:22 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 022a283b33a15418752e18a8ab56e5709e55c1dc[m
+Author: root <root@ip-10-0-10-43.eu-south-1.compute.internal>
+Date:   Tue Nov 2 06:56:27 2021 +0000
+
+    scripts modified
+
+[33mcommit 7de832ee78f56351174c7b2be487343a0b3d9e3d[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 18:50:47 2021 +0000
+
+    Added start
+
+[33mcommit c8484079da053eea70e429bd9a958b5b137d2cd3[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 18:49:31 2021 +0000
+
+    Added set_permissions
+
+[33mcommit 6256d815ea6718be6612f8954f6c64ab80a756ce[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 18:47:25 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit d328fc1e0d8161f0c541b77d901daf18405c55a5[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 17:36:12 2021 +0000
+
+    appspec file
+
+[33mcommit 804311244130277c285d89018c083d1c63eba1f8[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 16:39:30 2021 +0000
+
+    appspec
+
+[33mcommit b54b2ce5c370616102fda899e823236137a0b6a4[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 16:25:53 2021 +0000
+
+    appspec file edit
+
+[33mcommit fd09ff137b323658a6ca7f280cba05d5c2f63801[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 15:53:28 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit b056f88b16b79cca1c11d6125449c77f615c2123[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Mon Nov 1 15:24:35 2021 +0000
+
+    appspec file modified for permissions
+
+[33mcommit 5827ac3889d58727a86772c266a69f527d73f5df[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 22:16:16 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 1c22c08e556c3bac7472192fdc7885f1aa87175f[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 22:02:50 2021 +0000
+
+    Edited set_permissions.sh
+
+[33mcommit f1727688c7a921a223cf99ee50137e7aeca0b404[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 21:43:11 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 9101040a8c5ce7f2b050cfe32eb6d6224a5ee22c[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:56:38 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 0472177d26cab6f192a18cf5d9b0b1213b733790[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:44:05 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 296548f4147856bad50a8a9b8b9d5b6fc26db610[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:31:28 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 18f002a0e139f59eefcd012b11e52ee8aeb9dce1[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:11:29 2021 +0000
+
+    appspec file edit
+
+[33mcommit df79183b353e15bdf201e148a0051a806329d3fc[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:10:21 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit cf2b09377f699ba73b9e116324504aef94860b29[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:08:05 2021 +0000
+
+    Added set_permissions.sh
+
+[33mcommit 89a5003d59dd1b3d13d0d6a5b1d29f3446540c85[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 20:06:40 2021 +0000
+
+    Edited start.sh
+
+[33mcommit 9bf703b9a4a88aaf235dd8ca23661fc949382a2a[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 19:14:19 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit a81ca604707ee7b24ffdd379174f91a753922a21[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 19:10:22 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 16df5c50419e5232acc9fa46bbac11dca5e3a781[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 18:33:57 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit b3e1d20eb58128e59fc9c9267856f4db53d08ee5[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 18:21:16 2021 +0000
+
+    Edited start.sh
+
+[33mcommit a5f0a3e1d3bad4f44d00ad4f66f470be84407d15[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 18:20:17 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit 978365f8553873a1c3fb9ea80b252880e687a6f4[m
+Author: arun chandel <arunchandel17@gmail.com>
+Date:   Sun Oct 31 23:03:07 2021 +0530
+
+    modify scriptes
+
+[33mcommit d8ba17b0d958f0bc5438d3ccfdeaae4ca9ab0e72[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 17:20:18 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit b6ec18319d76349afc15e667920f23743262c93c[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 17:08:54 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit ca04f1a4d8d96914569148edfb5c78e57330718f[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 16:50:11 2021 +0000
+
+    script changed
+
+[33mcommit bd055393dfa71d7425ce7a60cc25db5b6ebdf6c7[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 16:49:24 2021 +0000
+
+    scripts modified
+
+[33mcommit 5abccfafe496e6e841879e3220e2b902fb4af8fe[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 15:19:38 2021 +0000
+
+    script start file modified
+
+[33mcommit ce1a9b994773717d5f53d4a64f995611eeb5f491[m
+Author: arun chandel <arunchandel17@gmail.com>
+Date:   Sun Oct 31 19:53:00 2021 +0530
+
+    env file removed
+
+[33mcommit db91822daad53f33221c9ac6c871de0bc780360e[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sun Oct 31 11:21:28 2021 +0000
+
+    Edited .env
+
+[33mcommit cccff87e2f7733c8272d3b39c759704b5a2a607c[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Oct 30 07:14:43 2021 +0000
+
+    env file db credentials updated
+
+[33mcommit 844d98c56369ee6dd8e06b362b53f7afbfe82421[m
+Author: Ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Oct 30 06:35:48 2021 +0000
+
+    appspec file is modified
+
+[33mcommit b596258964b5897f6821dec19a64a10be9472fee[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Oct 30 06:05:58 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 786033534fec1b6a4fa007c6fb503f3f2c2e9611[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Oct 30 05:52:09 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit 3f426d5175310ea00694e1fed197b46e20754772[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Sat Oct 30 05:44:25 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 0bdb84daf3dbc812952fa3ee833ed8368a38a56c[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Fri Oct 29 18:18:25 2021 +0000
+
+    Edited install_dependencies.sh
+
+[33mcommit 8cee9f8b4d2ad49c542ceba5b2fd57f389161963[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Fri Oct 29 18:11:17 2021 +0000
+
+    Edited appspec.yml
+
+[33mcommit 285560b3369c39733f4b457943f5d61840949840[m
+Author: ashwini <ashwinikumar251@gmail.com>
+Date:   Fri Oct 29 17:18:34 2021 +0000
+
+    Added appspec.yml
+
+[33mcommit 408b04f57540afa62e3303acd3cb97524637bdcd[m
+Author: arun chandel <arunchandel17@gmail.com>
+Date:   Fri Oct 29 22:46:15 2021 +0530
+
+    added files
+
+[33mcommit ca089c8dcf7695b4bb2e813eba15f16df9036b66[m
+Author: arun chandel <arunchandel17@gmail.com>
+Date:   Fri Oct 29 22:41:33 2021 +0530
+
+    added files
